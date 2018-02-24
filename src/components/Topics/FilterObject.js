@@ -7,9 +7,9 @@ export default class FilterObject extends Component {
 
     this.state = {
       people: [
-        {name: "Michael", age: 25, occupation: "Engineer"},
-        {name: "Coorrrraaaal", age: 13, occupation: "Trash"},
-        {name: "Inaho", age: 18, occupation: "Kataphrakt Operator"}, 
+        {name: "Michael", age: 25},
+        {name: "Coorrrraaaal", occupation: "Trash"},
+        {name: "Inaho", occupation: "Kataphrakt Operator"}, 
         {name: "Takeshi", age: 32, occupation: "Envoy"}
       ],
       userInput: '',
